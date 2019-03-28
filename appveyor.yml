@@ -32,4 +32,3 @@ deploy:
   artifact: /.*\.nupkg/
   on:
     branch: master
-    is_pr: false
