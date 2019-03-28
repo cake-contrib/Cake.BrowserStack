@@ -1,0 +1,25 @@
+environment:
+  test_browserstack_api_username:
+    secure: vJntliZhY34wDY8ERUBFNtDYDykoBArjD23Hq3hfN+0=
+  test_browserstack_api_accesskey:
+    secure: vJntliZhY34wDY8ERUBFNtDYDykoBArjD23Hq3hfN+0=
+    
+#---------------------------------#
+#  Build Script                   #
+#---------------------------------#
+build_script:
+  - ps: .\build.ps1 -Script build.cake -Target AppVeyor -Verbosity Diagnostic --settings_skipverification=true
+
+# Tests
+test: off
+
+#---------------------------------#
+#        Branches to build        #
+#---------------------------------#
+branches:
+  # Whitelist
+  only:
+    - develop
+    - master
+    - /release/.*/
+    - /hotfix/.*/

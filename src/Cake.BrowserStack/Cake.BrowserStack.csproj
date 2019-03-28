@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
+    <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.6' ">1.6.1</NetStandardImplicitPackageVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Cake.BrowserStack</PackageId>
+    <Title>Cake.BrowserStack</Title>
+    <Summary>BrowserStack API's addin for cake build.</Summary>
+    <Description>Cake Build addin for BrowserStack API's.</Description>
+    <PackageTags>Cake Script Build</PackageTags>
+    <Authors>dlbroadfoot</Authors>
+    <Owners>dlbroadfoot</Owners>
+    <PackageProjectUrl>https://github.com/dlbroadfoot/Cake.BrowserStack</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/redth/Cake.AppVeyor/master/icon.png</PackageIconUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/dlbroadfoot/Cake.BrowserStack/master/LICENSE</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Cake.Core" Version="0.30.0" />
+    <PackageReference Include="Cake.Common" Version="0.30.0" />
+    <PackageReference Include="Refit" Version="4.6.58" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>
