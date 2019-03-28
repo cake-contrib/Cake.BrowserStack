@@ -23,9 +23,6 @@
     <None Update="SampleApp.apk">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="selendroid-test-app.apk">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
 
 </Project>

@@ -15,7 +15,7 @@
     <Authors>dlbroadfoot</Authors>
     <Owners>dlbroadfoot</Owners>
     <PackageProjectUrl>https://github.com/dlbroadfoot/Cake.BrowserStack</PackageProjectUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/redth/Cake.AppVeyor/master/icon.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/dlbroadfoot/Cake.BrowserStack/master/icon.png</PackageIconUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/dlbroadfoot/Cake.BrowserStack/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
