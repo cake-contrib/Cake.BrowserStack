@@ -1,8 +1,8 @@
 environment:
   test_browserstack_api_username:
-    secure: vJntliZhY34wDY8ERUBFNtDYDykoBArjD23Hq3hfN+0=
+    secure: Dlz0haYgc/lPE/oJGqXnVA==
   test_browserstack_api_accesskey:
-    secure: vJntliZhY34wDY8ERUBFNtDYDykoBArjD23Hq3hfN+0=
+    secure: o5Lwx3DV65G1zekin6kUNik5BCpCwV7I6FwbvmLXZ6k=
     
 #---------------------------------#
 #  Build Script                   #
@@ -23,3 +23,13 @@ branches:
     - master
     - /release/.*/
     - /hotfix/.*/
+    
+deploy:
+  provider: NuGet
+  api_key:
+    secure: oy2mybeb5er42ndce3datul5lyvxfnlexg3m2n25onttiq
+  skip_symbols: false
+  artifact: /.*\.nupkg/
+  on:
+    branch: master
+    is_pr: false
