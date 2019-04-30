@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
@@ -15,13 +15,13 @@
     <Authors>dlbroadfoot</Authors>
     <Owners>dlbroadfoot</Owners>
     <PackageProjectUrl>https://github.com/dlbroadfoot/Cake.BrowserStack</PackageProjectUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/dlbroadfoot/Cake.BrowserStack/master/icon.png</PackageIconUrl>
+    <PackageIconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/cake-contrib-medium.png</PackageIconUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/dlbroadfoot/Cake.BrowserStack/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Cake.Core" Version="0.30.0" />
-    <PackageReference Include="Cake.Common" Version="0.30.0" />
+    <PackageReference Include="Cake.Core" Version="0.33.0" PrivateAssets="All" />
+    <PackageReference Include="Cake.Common" Version="0.33.0" PrivateAssets="All" />
     <PackageReference Include="Refit" Version="4.6.58" />
   </ItemGroup>
 
