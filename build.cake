@@ -12,7 +12,8 @@ BuildParameters.SetParameters(context: Context,
                             shouldRunDotNetCorePack: true,
                             shouldRunDupFinder: false,
                             shouldRunInspectCode: false,
-                            testFilePattern: "DO_NOT_RUN_TESTS");
+                            testFilePattern: "DO_NOT_RUN_TESTS",
+                            shouldRunGitVersion: true);
 
 BuildParameters.PrintParameters(Context);
 
