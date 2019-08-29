@@ -16,7 +16,9 @@
     <Owners>dlbroadfoot;cake-contrib</Owners>
     <PackageProjectUrl>https://github.com/cake-contrib/Cake.BrowserStack</PackageProjectUrl>
     <PackageIconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/cake-contrib-medium.png</PackageIconUrl>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/cake-contrib/Cake.BrowserStack/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/cake-contrib/Cake.BrowserStack.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
